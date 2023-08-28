@@ -2,8 +2,10 @@ import styles from "./Favoritos.module.css"
 import Banner from "../../componentes/Banner"
 import Titulo from "../../componentes/Titulo"
 import Card from "../../componentes/Card"
+import { useFavoritosContext } from "../../context/Favoritos"
 
 function Favorito() {
+    const { favorito } = useFavoritosContext()
     return(
         <>
             <Banner imagem='favoritos'/>
@@ -13,7 +15,9 @@ function Favorito() {
             </Titulo>
 
             <section className={styles.container}>
-                <Card id = '1' titulo = 'aghaghag' capa = "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png" />
+               {favorito.map((fav) => {
+                return <Card {...fav} key={fav.id} />
+               })}
             </section>
 
         </>

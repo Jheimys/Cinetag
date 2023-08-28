@@ -4,16 +4,19 @@ import Favoritos from "./pages/Favoritos";
 import Rodape from "./componentes/Rodape";
 import Cabecalho from "./componentes/cabecalho";
 import Container from "./componentes/Container";
+import FavoritosProvaider from "./context/Favoritos";
 
 function AppRoutes() {
     return(
         <BrowserRouter>
             <Cabecalho />
             <Container>
-                <Routes>
-                    <Route path="/" element={<Inicio />}></Route>
-                    <Route path="/favoritos" element={<Favoritos />}></Route>
-                </Routes>
+                <FavoritosProvaider>
+                    <Routes>
+                        <Route path="/" element={<Inicio />}></Route>
+                        <Route path="/favoritos" element={<Favoritos />}></Route>
+                    </Routes>
+                </FavoritosProvaider>
             </Container>
             <Rodape />
         </BrowserRouter>
