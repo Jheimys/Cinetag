@@ -2,6 +2,7 @@ import { useFavoritosContext } from '../../context/Favoritos'
 import styles from './Card.module.css'
 import iconeFavotitar from './favoritar.png'
 import iconeDesFavoritar from './desvaforitar.png'
+import { Link } from 'react-router-dom'
 
 
 function Card({id, titulo, capa}) {
@@ -10,8 +11,10 @@ function Card({id, titulo, capa}) {
     const icone = !ehFavorito ? iconeFavotitar : iconeDesFavoritar
     return(
         <div className={styles.container}>
-            <img src={capa} alt={titulo} className={styles.capa} />
-            <h2>{titulo}</h2>
+            <Link className={styles.link} to={`/${id}`}>
+                <img src={capa} alt={titulo} className={styles.capa} />
+                <h2>{titulo}</h2>
+            </Link>
             <img src={icone} 
                 alt='Favoritar Filme' 
                 className={styles.favoritar}
