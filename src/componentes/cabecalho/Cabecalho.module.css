@@ -7,3 +7,9 @@
     align-items: center;
 }
 
+@media (max-width: 1000px) {
+    .cabecalho {
+        padding: 1.1em 1em;
+    }
+}
+
