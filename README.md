@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+![logo](https://github.com/Jheimys/Cinetag/assets/80724830/c33b3fa4-3311-4df3-bfc9-c22f2e322b94)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <h1 align=center> Cine Tag</h1>
 
-## Available Scripts
+# Welcome!👋
 
-In the project directory, you can run:
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Jheimys/Electronic_battery/blob/master/LICENCE)
+![NPM](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2FJheimys%2FOrgano_II%2Fedit%2Fmaster%2FREADME.m)
 
-### `npm start`
+Thanks for visiting your feedback is really appreciated and will help me to improve my codes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hope you enjoy it!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Project description
 
-### `npm test`
+Project with an emphasis on web development using various JavaScript frameworks. The main objective is to practice react with javascript, implementing normal, dynamic and nested routes,
+hooks and react contexts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <p align=center>
+    <image width="670" heigth="570" src='https://github.com/Jheimys/assets/blob/master/cinetag.png'>
+  </p>
 
-### `npm run build`
+# Project Status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> :trophy: Finished ::trophy:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Funcionalidades do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:hammer: `Funcionalidade`
 
-### `npm run eject`
+:heavy_check_mark: Favorite and unfavorite Movies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+:heavy_check_mark: Navigation between pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:heavy_check_mark: Responsive design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Technologies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+:heavy_check_mark: HTML
 
-## Learn More
+:heavy_check_mark:CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+:heavy_check_mark: JavaScript
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+:heavy_check_mark: React
 
-### Code Splitting
+# Project access
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+:link: https://tin-dog-murex.vercel.app/
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![img](https://github.com/Jheimys.png?size=100)
 
-### Making a Progressive Web App
+James Bezerra Bassani
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+:globe_with_meridians: [Linkedin](https://www.linkedin.com/in/jheimys/)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Have fun building!** 🚀
