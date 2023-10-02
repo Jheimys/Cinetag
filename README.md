@@ -24,9 +24,9 @@ hooks and react contexts.
 
 > :trophy: Finished ::trophy:
 
-# Funcionalidades do projeto
+# Project features
 
-:hammer: `Funcionalidade`
+:hammer: `Functionality`
 
 :heavy_check_mark: Favorite and unfavorite Movies
 
@@ -46,7 +46,7 @@ hooks and react contexts.
 
 # Project access
 
-:link: https://tin-dog-murex.vercel.app/
+:link: https://cinetag-coral.vercel.app/
 
 ## Author
 
